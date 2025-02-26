@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="shortcut icon" href="favicon - 16x16.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: black;
+        }
+        h1{
+            color: aliceblue;
+        }
+        h2 {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Desafio das imagens</h1>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h2>Vila Velha</h2>
+    
+    <img src="VV.jpg" width="765px" alt="Imagem com a cidade de vila velha">
+
+    <picture>
+        <source media="(min-width: 765px)" srcset="menor.png">
+        <source media="(max-width: 765px)" srcset="VV.jpg">
+        <img src="VV.jpg" alt="Cidade de Vila Velha">
+    </picture>
+</body>
+</html>
