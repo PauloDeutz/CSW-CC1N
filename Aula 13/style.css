@@ -1,0 +1,50 @@
+body{
+    background-image: url(https://static.poder360.com.br/2025/03/Botafogo-Elenco-2025-848x477.png); 
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 92%;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: white;
+    width: 35vw;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 5px 10px 25px;
+    background-size: #fff;
+    background:radial-gradient(circle, black, white 80%);
+}
+
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .sedan-regular-italic {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+h1{
+    color: rgb(53, 94, 150);
+    height: center;
+    text-align: center;
+    font-family: "Sedan", "serif";
+}
+h2{
+    color: rgb(71, 135, 140)
+}
+
+p{
+    text-align:justify;
+    
+}
