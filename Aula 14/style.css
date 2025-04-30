@@ -1,0 +1,92 @@
+.div1{
+    display: block;
+    background-color: lightcyan;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+
+.div2 {
+    display: block;
+    background-color: lightcyan;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+
+
+
+.tit1 {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+    outline-style: solid;
+    outline-width: 30px;
+    outline-color: blue;
+    margin: 50px;
+    display: inline-block;
+}
+
+.tit2 {
+    width: 300px;
+    height: 50px;
+    background-color: lightgray;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+    padding: 20px;
+    outline-style: solid;
+    outline-width: 30px;
+    outline-color: red;
+    margin: 50px;
+    display: inline-block;
+}
+
+.tit1:hover {
+    background-color:rgb(69, 69, 245);
+  }
+
+  .tit2:active {
+    background-color: rgb(236, 79, 79);
+  }
+
+
+  .conteiner {
+    display: flex;
+  }
+
+  .linkmsc {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+  }
+
+  .linkmsc:hover {
+    color:rgb(69, 69, 245);
+  }
+
+
+  .linkmsc:before {
+    content: "✵ ";
+    color: #555;
+}
+
+
+.linkmsc:after {
+    content: "✵ ";
+    color: #555;
+}
