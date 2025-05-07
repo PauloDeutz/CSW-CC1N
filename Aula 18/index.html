@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AULA 16</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="dp">
+            <h2>Dados Pessoais</h2>
+            <form class="inf">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Insira seu e-mail aqui">
+                <label for="password">Senha:</label>
+                <input type="password" placeholder="Insira sua senha aqui">
+            </form>
+            <label for="">Idade:</label>
+            <input type="number" name="idade">
+            <label for="">Escolha uma cor:</label>
+            <input type="color"><br><br>
+            <label for="">Data e Hora:</label>
+            <input type="datetime-local">
+            </form>
+            <form class="inf">
+                <label for="">Selecione um arquivo:</label>
+                <input type="file" value="arquivo"><br><br>
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="l">
+            <div class="lp">
+                <h2>Login</h2>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Insira seu e-mail aqui">
+                <label for="password">Senha:</label>
+                <input type="password" placeholder="Insira sua senha aqui">
+            </div>
+            <div class="op">
+                <div class="lp">
+                    <form>
+                        <label for="">Selecione uma opção</label><br>
+                        <input type="radio" name="opcoes" value="op1">Opção 1 <br>
+                        <input type="radio" name="opcoes" value="op2">Opção 2<br>
+                        <input type="radio" name="opcoes" value="op3">Opção 3 <br>
+                    </form>
+                </div>
+                <div class="lp">
+                    <form>
+                        <label for="">Selecione uma opção</label><br>
+                        <input type="checkbox">Opção 1 <br>
+                        <input type="checkbox">Opção 2<br>
+                        <input type="checkbox">Opção 3 <br>
+                    </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="outros">
+            <div>
+                <p>Deixe seu comentario aqui</p>
+                <textarea name="comentario" id="comentario" cols="50" rows="10"
+                    placeholder="Escreva seu comentario aqui" readonly> </textarea>
+            </div>
+            <form>
+                <label for="">Esporte favorito:</label>
+                <select name="esportes" size="1">
+                    <option value="">Selecione</option>
+                    <option value="volei">Volêi</option>
+                    <option value="futebol">Futebol</option>
+                    <option value="basquete">Basquete</option>
+                    <option value="handebol">Handebol</option>
+                </select>
+        </div>
+    </div>
+</body>
+
+</html>
