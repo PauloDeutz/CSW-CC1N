@@ -6,27 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 19</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <script type="text/javascript">
-        document.write("<h1>Olá, Mundo!");
-    </script>
-    <hr>
-    <h1>Esse é o meu primeiro código em JavaScript</h1>
-    <br>
-    <br>
-    <h1 id="teste">Esse é o meu segundo codígo JavaScript</h1>
-    <script type="text/javascript">
-        document.write("<h2>Olá, Mundo!<h2>")
-    </script>
 
-    <script type="text/javascript">
-        window.alert("test");
-        document.getElementById("teste").innerHTML = "esse texto foi trocado";
-    </script>
+    <button onclick="dados()">Clique aqui</button>
+    <h1 id="teste"></h1>
 
-    
+    <div>
+        <input type="text" name="nome" id="nome" placeholder="Escreva seu nome">
+        <button onclick="nome()">Enviar</button>
+    </div>
 </body>
-
 </html>
